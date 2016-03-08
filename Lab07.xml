@@ -177,4 +177,196 @@
             </DayBooking>
         </DayBookings>
     </Days>
+
+    <Timeslots>
+        <TimeBookings>
+			<Timeslot> "8:30" </Timeslot>
+            <TimeBooking>
+                <Day> "Friday" </Day>
+                <Course> "ACIT4660" </Course>
+                <Instructor>Steve Fabiszewski</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW9-206</Room>
+            </TimeBooking>
+		<TimeBookings>
+			
+		<TimeBookings>	
+			<Timeslot> "9:30" </Timeslot>
+			<TimeBooking>
+                <Day> "Thursday" </Day>
+                <Course> "ACIT4910" </Course>
+                <Instructor>Richard Chau</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW5-1840</Room>
+            </TimeBooking>
+			<TimeBooking>
+                <Day> "Friday" </Day>
+                <Course> "ACIT4660" </Course>
+                <Instructor>Steve Fabiszewski</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW9-206</Room>
+            </TimeBooking>
+		</TimeBookings>
+			
+		<TimeBookings>	
+			<Timeslot> "10:30" </Timeslot>
+            <TimeBooking>
+                <Day> "Tuesday" </Day>
+                <Course> "ACIT4620" </Course>
+                <Instructor>Bethany Edmunds</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+            </TimeBooking>
+            <TimeBooking>
+                <Day> "Wednesday" </Day>
+                <Course> "ACIT4660" </Course>
+                <Instructor>Steve Fabiszewski</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+            </TimeBooking>
+            <TimeBooking>
+                <Day> "Thursday" </Day>
+                <Course> "ACIT4850" </Course>
+                <Instructor>James Parry</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-320</Room>
+            </TimeBooking>
+        </TimeBookings>
+		
+		<TimeBookings>
+			<Timeslot> "11:30" </Timeslot>
+            <TimeBooking>
+                <Day> "Tuesday" </Day>
+                <Course> "ACIT4620" </Course>
+                <Instructor>Bethany Edmunds</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+            </TimeBooking>
+            <TimeBooking>
+                <Day> "Wednesday" </Day>
+                <Course> "ACIT4660" </Course>
+                <Instructor>Steve Fabiszewski</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+            </TimeBooking>
+            <TimeBooking>
+                <Day> "Thursday" </Day>
+                <Course> "ACIT4850" </Course>
+                <Instructor>James Parry</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-320</Room>
+            </TimeBooking>
+        </TimeBookings>
+
+        <TimeBookings>
+			<Timeslot> "12:30" </Timeslot>
+            <TimeBooking>
+				<Day> "Tuesday" </Day>
+                <Course> "ACIT4650" </Course>
+                <Instructor>Medhat Elmasry</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW9-206</Room>
+			</TimeBooking>
+			<TimeBooking>
+                <Day> "Wednesday" </Day>
+                <Course> "ACIT4850" </Course>
+                <Instructor>James Parry</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW3-1750</Room>
+            </TimeBooking>
+        </TimeBookings>
+		
+		<TimeBookings>
+			<Timeslot> "13:30" </Timeslot>
+            <TimeBooking>
+				<Day> "Monday" </Day>
+				<Course> "ACIT4770" </Course>
+                <Instructor>Trevor Lord</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+			</TimeBooking>
+			<TimeBooking>
+				<Day> "Tuesday" </Day>
+                <Course> "ACIT4650" </Course>
+                <Instructor>Medhat Elmasry</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+			</TimeBooking>
+			<TimeBooking>
+                <Day> "Wednesday" </Day>
+                <Course> "ACIT4850" </Course>
+                <Instructor>James Parry</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW3-1750</Room>
+            </TimeBooking>
+			<TimeBooking>
+				<Day> "Thursday" </Day>
+				<Course> "ACIT4910" </Course>
+                <Instructor>Richard Chau</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+			</TimeBooking>
+        </TimeBookings>
+		
+		<TimeBookings>
+			<Timeslot> "14:30" </Timeslot>
+            <TimeBooking>
+				<Day> "Monday" </Day>
+				<Course> "ACIT4770" </Course>
+                <Instructor>Trevor Lord</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+			</TimeBooking>
+			<TimeBooking>
+				<Day> "Tuesday" </Day>
+                <Course> "ACIT4650" </Course>
+                <Instructor>Medhat Elmasry</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+			</TimeBooking>
+			<TimeBooking>
+				<Day> "Thursday" </Day>
+				<Course> "ACIT4910" </Course>
+                <Instructor>Richard Chau</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+			</TimeBooking>
+        </TimeBookings>
+		
+		<TimeBookings>
+			<Timeslot> "15:30" </Timeslot>
+            <TimeBooking>
+                <Day> "Monday" </Day>
+                <Course> "ACIT4910" </Course>
+                <Instructor>Richard Chau</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW9-206</Room>
+            </TimeBooking>
+			<TimeBooking>
+				<Day> "Tuesday" </Day>
+				<Course> "ACIT4620" </Course>
+                <Instructor>Bethany Edmunds</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW3-3615</Room>
+			</TimeBooking>
+        </TimeBookings>
+		
+		<TimeBookings>
+			<Timeslot> "16:30" </Timeslot>
+			<TimeBooking>
+				<Day> "Tuesday" </Day>
+                <Course> "ACIT4650" </Course>
+                <Instructor>Medhat Elmasry</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+			</TimeBooking>
+            <TimeBooking>
+				<Day> "Tuesday" </Day>
+				<Course> "ACIT4620" </Course>
+                <Instructor>Bethany Edmunds</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW3-3615</Room>
+			</TimeBooking>
+        </TimeBookings>
+	</Timeslots>
 </Master>
