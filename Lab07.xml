@@ -189,8 +189,8 @@
                 <Room>SW9-206</Room>
             </TimeBooking>
 		<TimeBookings>
-			
-		<TimeBookings>	
+
+		<TimeBookings>
 			<Timeslot> "9:30" </Timeslot>
 			<TimeBooking>
                 <Day> "Thursday" </Day>
@@ -207,8 +207,8 @@
                 <Room>SW9-206</Room>
             </TimeBooking>
 		</TimeBookings>
-			
-		<TimeBookings>	
+
+		<TimeBookings>
 			<Timeslot> "10:30" </Timeslot>
             <TimeBooking>
                 <Day> "Tuesday" </Day>
@@ -232,7 +232,7 @@
                 <Room>SE12-320</Room>
             </TimeBooking>
         </TimeBookings>
-		
+
 		<TimeBookings>
 			<Timeslot> "11:30" </Timeslot>
             <TimeBooking>
@@ -275,7 +275,7 @@
                 <Room>SW3-1750</Room>
             </TimeBooking>
         </TimeBookings>
-		
+
 		<TimeBookings>
 			<Timeslot> "13:30" </Timeslot>
             <TimeBooking>
@@ -307,7 +307,7 @@
                 <Room>SE12-306</Room>
 			</TimeBooking>
         </TimeBookings>
-		
+
 		<TimeBookings>
 			<Timeslot> "14:30" </Timeslot>
             <TimeBooking>
@@ -332,7 +332,7 @@
                 <Room>SE12-306</Room>
 			</TimeBooking>
         </TimeBookings>
-		
+
 		<TimeBookings>
 			<Timeslot> "15:30" </Timeslot>
             <TimeBooking>
@@ -350,7 +350,7 @@
                 <Room>SW3-3615</Room>
 			</TimeBooking>
         </TimeBookings>
-		
+
 		<TimeBookings>
 			<Timeslot> "16:30" </Timeslot>
 			<TimeBooking>
@@ -369,4 +369,178 @@
 			</TimeBooking>
         </TimeBookings>
 	</Timeslots>
+    <Courses>
+        <CourseBookings>
+            <Course> "ACIT4620" </Course>
+            <CourseBooking>
+                <Day> "Tuesday" </Day>
+                <Timeslot> "10:30" </Timeslot>
+                <Instructor>Bethany Edmunds</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Tuesday" </Day>
+                <Timeslot> "11:30" </Timeslot>
+                <Instructor>Bethany Edmunds</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Tuesday" </Day>
+                <Timeslot> "15:30" </Timeslot>
+                <Instructor>Bethany Edmunds</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW3-3615</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Tuesday" </Day>
+                <Timeslot> "16:30" </Timeslot>
+                <Instructor>Bethany Edmunds</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW3-3615</Room>
+            </CourseBooking>
+        </CourseBookings>
+        <CourseBookings>
+            <Course> "ACIT4650" </Course>
+            <CourseBooking>
+                <Day> "Monday" </Day>
+                <Timeslot> "16:30" </Timeslot>
+                <Instructor>Medhat Elmasry</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SE6-205</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Tuesday" </Day>
+                <Timeslot> "12:30" </Timeslot>
+                <Instructor>Medhat Elmasry</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW9-206</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Tuesday" </Day>
+                <Timeslot> "13:30" </Timeslot>
+                <Instructor>Medhat Elmasry</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Tuesday" </Day>
+                <Timeslot> "14:30" </Timeslot>
+                <Instructor>Medhat Elmasry</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+            </CourseBooking>
+        </CourseBookings>
+        <CourseBookings>
+            <Course> "ACIT4660" </Course>
+            <CourseBooking>
+                <Day> "Wednesday" </Day>
+                <Timeslot> "10:30" </Timeslot>
+                <Instructor>Steve Frabiszewski</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Wednesday" </Day>
+                <Timeslot> "11:30" </Timeslot>
+                <Instructor>Steve Frabiszewski</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Friday" </Day>
+                <Timeslot> "8:30" </Timeslot>
+                <Instructor>Steve Frabiszewski</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW9-206</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Friday" </Day>
+                <Timeslot> "9:30" </Timeslot>
+                <Instructor>Steve Frabiszewski</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW9-206</Room>
+            </CourseBooking>
+        </CourseBookings>
+        <CourseBookings>
+            <Course> "ACIT4770" </Course>
+            <CourseBooking>
+                <Day> "Monday" </Day>
+                <Timeslot> "13:30" </Timeslot>
+                <Instructor>Trevor Lord</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Monday" </Day>
+                <Timeslot> "14:30" </Timeslot>
+                <Instructor>Trevor Lord</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+            </CourseBooking>
+        </CourseBookings>
+        <CourseBookings>
+            <Course> "ACIT4850" </Course>
+            <CourseBooking>
+                <Day> "Wednesday" </Day>
+                <Timeslot> "12:30" </Timeslot>
+                <Instructor>James Parry</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW3-1750</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Wednesday" </Day>
+                <Timeslot> "13:30" </Timeslot>
+                <Instructor>James Parry</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW3-1750</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Thursday" </Day>
+                <Timeslot> "10:30" </Timeslot>
+                <Instructor>James Parry</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-320</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Thursday" </Day>
+                <Timeslot> "11:30" </Timeslot>
+                <Instructor>James Parry</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-320</Room>
+            </CourseBooking>
+        </CourseBookings>
+        <CourseBookings>
+            <Course> "ACIT4910" </Course>
+            <CourseBooking>
+                <Day> "Monday" </Day>
+                <Timeslot> "15:30" </Timeslot>
+                <Instructor>Richard Chau</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW9-206</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Thursday" </Day>
+                <Timeslot> "9:30" </Timeslot>
+                <Instructor>Richard Chau</Instructor>
+                <Activity>Lecture</Activity>
+                <Room>SW5-1840</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Thursday" </Day>
+                <Timeslot> "13:30" </Timeslot>
+                <Instructor>Richard Chau</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+            </CourseBooking>
+            <CourseBooking>
+                <Day> "Thursday" </Day>
+                <Timeslot> "14:30" </Timeslot>
+                <Instructor>Richard Chau</Instructor>
+                <Activity>Lab</Activity>
+                <Room>SE12-306</Room>
+            </CourseBooking>
+        </CourseBookings>
+    </Courses>
 </Master>
