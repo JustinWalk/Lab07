@@ -1,0 +1,25 @@
+<!ELEMENT Master (Days, Timeslots, Courses)>
+
+<!ELEMENT Days (DayBookings*)>
+<!ELEMENT Timeslots (TimeslotBookings*)>
+<!ELEMENT Courses (CourseBookings*)>
+
+<!ELEMENT DayBookings (Day, DayBooking*)>
+<!ELEMENT TimeslotBookings (Timeslot, TimeslotBooking*)>
+<!ELEMENT CourseBookings (Course, CourseBooking*)>
+
+<!ELEMENT Day (#PCDATA)>
+
+<!ELEMENT Timeslot (#PCDATA)>
+
+<!ELEMENT Course (#PCDATA)>
+
+<!ELEMENT DayBooking (Timeslot, Course, Instructor, Activity, Room)>
+<!ELEMENT TimeslotBooking (Day, Course, Instructor, Activity, Room)>
+<!ELEMENT CourseBooking (Day, Timeslot, Instructor, Activity, Room)>
+
+<!ELEMENT Instructor (#PCDATA)>
+
+<!ELEMENT Activity (#PCDATA)>
+
+<!ELEMENT Room (#PCDATA)>
