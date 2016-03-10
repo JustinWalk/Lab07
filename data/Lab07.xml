@@ -188,7 +188,7 @@
                 <Activity>Lecture</Activity>
                 <Room>SW9-206</Room>
             </TimeBooking>
-		<TimeBookings>
+		</TimeBookings>
 
 		<TimeBookings>
 			<Timeslot> "9:30" </Timeslot>
