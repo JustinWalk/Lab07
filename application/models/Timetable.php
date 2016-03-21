@@ -23,7 +23,7 @@ class Timetable extends CI_Model {
             {
                 $record = new stdClass();
                 $record->Course = (string) $dayBooking['Course'];
-                $record->Timeslot = (string) $dayBooking['Timslot'];
+                $record->Timeslot = (string) $dayBooking['Timeslot'];
                 $record->Day = (string) $dayBookings['Day'];
                 $record->Instructor = (string) $dayBooking['Instructor'];
                 $record->Activity = (string) $dayBooking['Activity'];
@@ -39,7 +39,7 @@ class Timetable extends CI_Model {
             {
                 $record = new stdClass();
                 $record->Course = (string) $timeBooking['Course'];
-                $record->Timeslot = (string) $timeBookings['Timslot'];
+                $record->Timeslot = (string) $timeBookings['Timeslot'];
                 $record->Day = (string) $timeBooking['Day'];
                 $record->Instructor = (string) $timeBooking['Instructor'];
                 $record->Activity = (string) $timeBooking['Activity'];
@@ -55,7 +55,7 @@ class Timetable extends CI_Model {
             {
                 $record = new stdClass();
                 $record->Course = (string) $courseBookings['Course'];
-                $record->Timeslot = (string) $courseBooking['Timslot'];
+                $record->Timeslot = (string) $courseBooking['Timeslot'];
                 $record->Day = (string) $courseBooking['Day'];
                 $record->Instructor = (string) $courseBooking['Instructor'];
                 $record->Activity = (string) $courseBooking['Activity'];
