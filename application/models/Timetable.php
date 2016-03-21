@@ -26,6 +26,7 @@ class Timetable extends CI_Model {
                 $record->Instructor = (string) $dayBooking['Instructor'];
                 $record->Activity = (string) $dayBooking['Activity'];
                 $record->Room = (string) $dayBooking['Room'];
+                $this->dayBookings[] = $record;
             }
         }
 
@@ -41,6 +42,7 @@ class Timetable extends CI_Model {
                 $record->Instructor = (string) $timeBooking['Instructor'];
                 $record->Activity = (string) $timeBooking['Activity'];
                 $record->Room = (string) $timeBooking['Room'];
+                $this->timeBookings[] = $record;
             }
         }
 
@@ -56,6 +58,7 @@ class Timetable extends CI_Model {
                 $record->Instructor = (string) $courseBooking['Instructor'];
                 $record->Activity = (string) $courseBooking['Activity'];
                 $record->Room = (string) $courseBooking['Room'];
+                $this->courseBookings[] = $record;
             }
         }
     }
