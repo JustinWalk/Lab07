@@ -10,14 +10,16 @@ class Timetable extends CI_Model {
     protected $activity = array();
     protected $room = array();
 
-    function __construct() {
+    function __construct($filename = null) {
         parent::__construct();
-        $this->xml = simplexml_load_file(DATAPATH . 'Lab07.xml');
+		if($filename == null) return;
+		
+        $this->xml = simplexml_load_file(DATAPATH . $filename . XMLSUFFIX);
 
         //Organized by day
-        foreach ($this->xml->Master->Days->DayBookings as $dayBookings)
+        foreach ($this->xml->Days->DayBookings as $dayBookings)
         {
-            foreach ($dayBookings['DayBooking'] as $dayBooking)
+            foreach ($dayBookings->DayBooking as $dayBooking)
             {
                 $record = new stdClass();
                 $record->Course = (string) $dayBooking['Course'];
@@ -31,9 +33,9 @@ class Timetable extends CI_Model {
         }
 
         //Organized by timeslot
-        foreach ($this->xml->Master->Timeslots->TimeBookings as $timeBookings)
+        foreach ($this->xml->Timeslots->TimeBookings as $timeBookings)
         {
-            foreach ($timeBookings['TimeBooking'] as $timeBooking)
+            foreach ($timeBookings->TimeBooking as $timeBooking)
             {
                 $record = new stdClass();
                 $record->Course = (string) $timeBooking['Course'];
@@ -47,9 +49,9 @@ class Timetable extends CI_Model {
         }
 
         //Organized by course
-        foreach ($this->xml->Master->Courses->CourseBookings as $courseBookings)
+        foreach ($this->xml->Courses->CourseBookings as $courseBookings)
         {
-            foreach ($courseBookings['CourseBooking'] as $courseBooking)
+            foreach ($courseBookings->CourseBooking as $courseBooking)
             {
                 $record = new stdClass();
                 $record->Course = (string) $courseBookings['Course'];
@@ -62,4 +64,10 @@ class Timetable extends CI_Model {
             }
         }
     }
+	
+	function getDayBookings(){
+		return $this->dayBookings;
+	}
+	
+	
 }
