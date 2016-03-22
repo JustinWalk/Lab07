@@ -20,6 +20,19 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->load->helper('directory');
+		$this->load->library('parser');
+		/*$candidates = directory_map(DATAPATH);
+		sort($candidates);
+		foreach ($candidates as $file) {
+			if(substr_compare($file, XMLSUFFIX, strlen($file) - strlen(XMLSUFFIX), strlen(XMLSUFFIX)) === 0)
+					$bookings[] = array('filename' => substr($file, 0, -4));
+		}
+		$this->data['orders'] = $bookings;*/
+		$this->data['pagebody'] = 'homepage';
+		$this->render();
+		/*$this->load->view('welcome_message');*/
 	}
+	
+	
 }
