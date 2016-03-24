@@ -97,6 +97,7 @@
 
     <xs:simpleType name="CourseType">
         <xs:restriction base="xs:string">
+			<xs:pattern value="[A-Z]{4}[0-9]{4}"/>
         </xs:restriction>
     </xs:simpleType>
 
@@ -107,11 +108,14 @@
 
     <xs:simpleType name="ActivityType">
         <xs:restriction base="xs:string">
+			<xs:enumeration value="Lab"/>
+            <xs:enumeration value="Lecture"/>
         </xs:restriction>
     </xs:simpleType>
 
     <xs:simpleType name="RoomType">
         <xs:restriction base="xs:string">
+			<xs:pattern value="[A-Z]{2}[0-9]{2}-[0-9]{3,4}"/>
         </xs:restriction>
     </xs:simpleType>
 
