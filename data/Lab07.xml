@@ -123,7 +123,7 @@
         <DayBookings>
             <Day>Thursday</Day>
             <DayBooking>
-                <Timeslot>9:30</Timeslot>
+                <Timeslot>09:30</Timeslot>
                 <Course>ACIT4910</Course>
                 <Instructor>Richard Chau</Instructor>
                 <Activity>Lecture</Activity>
@@ -162,14 +162,14 @@
         <DayBookings>
             <Day>Friday</Day>
             <DayBooking>
-                <Timeslot>8:30</Timeslot>
+                <Timeslot>08:30</Timeslot>
                 <Course>ACIT4660</Course>
                 <Instructor>Steve Frabiszewski</Instructor>
                 <Activity>Lecture</Activity>
                 <Room>SW9-206</Room>
             </DayBooking>
             <DayBooking>
-                <Timeslot>9:30</Timeslot>
+                <Timeslot>09:30</Timeslot>
                 <Course>ACIT4660</Course>
                 <Instructor>Steve Frabiszewski</Instructor>
                 <Activity>Lecture</Activity>
@@ -180,7 +180,7 @@
 
     <Timeslots>
         <TimeBookings>
-			<Timeslot>8:30</Timeslot>
+			<Timeslot>08:30</Timeslot>
             <TimeBooking>
                 <Day>Friday</Day>
                 <Course>ACIT4660</Course>
@@ -191,7 +191,7 @@
 		</TimeBookings>
 
 		<TimeBookings>
-			<Timeslot>9:30</Timeslot>
+			<Timeslot>09:30</Timeslot>
 			<TimeBooking>
                 <Day>Thursday</Day>
                 <Course>ACIT4910</Course>
@@ -450,14 +450,14 @@
             </CourseBooking>
             <CourseBooking>
                 <Day>Friday</Day>
-                <Timeslot>8:30</Timeslot>
+                <Timeslot>08:30</Timeslot>
                 <Instructor>Steve Frabiszewski</Instructor>
                 <Activity>Lecture</Activity>
                 <Room>SW9-206</Room>
             </CourseBooking>
             <CourseBooking>
                 <Day>Friday</Day>
-                <Timeslot>9:30</Timeslot>
+                <Timeslot>09:30</Timeslot>
                 <Instructor>Steve Frabiszewski</Instructor>
                 <Activity>Lecture</Activity>
                 <Room>SW9-206</Room>
@@ -522,7 +522,7 @@
             </CourseBooking>
             <CourseBooking>
                 <Day>Thursday</Day>
-                <Timeslot>9:30</Timeslot>
+                <Timeslot>09:30</Timeslot>
                 <Instructor>Richard Chau</Instructor>
                 <Activity>Lecture</Activity>
                 <Room>SW5-1840</Room>
