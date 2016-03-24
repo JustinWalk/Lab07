@@ -2,6 +2,7 @@
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="Master" type="MasterType" />
 
+    <!-- Root element Master contains the 3 facets the schedule is organized by; Days, Timeslots and Courses -->
     <xs:complexType name="MasterType">
         <xs:sequence>
             <xs:element name="Days" type="DaysType" />
@@ -10,12 +11,14 @@
         </xs:sequence>
     </xs:complexType>
 
+    <!-- Courses contains CourseBookings elements -->
     <xs:complexType name="CoursesType">
         <xs:sequence>
             <xs:element maxOccurs="unbounded" name="CourseBookings" type="CourseBookingsType" />
         </xs:sequence>
     </xs:complexType>
 
+    <!-- CourseBookings contains a course and it's bookings -->
     <xs:complexType name="CourseBookingsType">
         <xs:sequence>
             <xs:element name="Course" type="xs:string" />
@@ -23,6 +26,7 @@
         </xs:sequence>
     </xs:complexType>
 
+    <!-- CourseBooking contains a day, timeslot, instructor, activity and room -->
     <xs:complexType name="CourseBookingType">
         <xs:sequence>
             <xs:element name="Day" type="xs:string" />
@@ -33,12 +37,14 @@
         </xs:sequence>
     </xs:complexType>
 
+    <!-- Timeslots contains TimeBookings elements -->
     <xs:complexType name="TimeslotsType">
         <xs:sequence>
             <xs:element maxOccurs="unbounded" name="TimeBookings" type="TimeBookingsType" />
         </xs:sequence>
     </xs:complexType>
 
+    <!-- TimeBookings contains a timeslot and it's bookings -->
     <xs:complexType name="TimeBookingsType">
         <xs:sequence>
             <xs:element name="Timeslot" type="xs:dateTime" />
@@ -46,6 +52,7 @@
         </xs:sequence>
     </xs:complexType>
 
+    <!-- TimeBooking contains a day, course, instructor, activity and room -->
     <xs:complexType name="TimeBookingType">
         <xs:sequence>
             <xs:element name="Day" type="xs:string" />
@@ -56,12 +63,14 @@
         </xs:sequence>
     </xs:complexType>
 
+    <!-- Days contains DayBookings elements-->
     <xs:complexType name="DaysType">
         <xs:sequence>
             <xs:element maxOccurs="unbounded" name="DayBookings" type="DayBookingsType" />
         </xs:sequence>
     </xs:complexType>
 
+    <!-- DayBookings contains a day and it's bookings -->
     <xs:complexType name="DayBookingsType">
         <xs:sequence>
             <xs:element name="Day" type="xs:string" />
@@ -69,6 +78,7 @@
         </xs:sequence>
     </xs:complexType>
 
+    <!-- DayBooking contains a timeslot, course, instructor, activity and room -->
     <xs:complexType name="DayBookingType">
         <xs:sequence>
             <xs:element name="Timeslot" type="xs:dateTime" />
@@ -79,6 +89,7 @@
         </xs:sequence>
     </xs:complexType>
 
+    <!-- Day contains a day Monday-Friday -->
     <xs:simpleType name="DayType">
         <xs:restriction base="xs:string">
             <xs:enumeration value="Monday"/>
@@ -89,23 +100,27 @@
         </xs:restriction>
     </xs:simpleType>
 
+    <!-- Timeslot contains a time -->
     <xs:simpleType name="TimeslotType">
         <xs:restriction base="xs:string">
             <xs:pattern value="[0-9][0-9]:30"/>
         </xs:restriction>
     </xs:simpleType>
 
+    <!-- Course contains a course code -->
     <xs:simpleType name="CourseType">
         <xs:restriction base="xs:string">
 			<xs:pattern value="[A-Z]{4}[0-9]{4}"/>
         </xs:restriction>
     </xs:simpleType>
 
+    <!-- Instructor contains an instructors name -->
     <xs:simpleType name="InstructorType">
         <xs:restriction base="xs:string">
         </xs:restriction>
     </xs:simpleType>
 
+    <!-- Activity contains wither Lab or Lecture -->
     <xs:simpleType name="ActivityType">
         <xs:restriction base="xs:string">
 			<xs:enumeration value="Lab"/>
@@ -113,6 +128,7 @@
         </xs:restriction>
     </xs:simpleType>
 
+    <!-- Room contains a building and room number -->
     <xs:simpleType name="RoomType">
         <xs:restriction base="xs:string">
 			<xs:pattern value="[A-Z]{2}[0-9]{2}-[0-9]{3,4}"/>
