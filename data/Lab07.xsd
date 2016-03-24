@@ -91,10 +91,10 @@
 
     <xs:simpleType name="TimeslotType">
         <xs:restriction base="xs:string">
-            <xs:pattern value="[0-9][0-9][:][3][0]"/>
+            <xs:pattern value="[0-9][0-9]:30"/>
         </xs:restriction>
     </xs:simpleType>
-    
+
     <xs:simpleType name="CourseType">
         <xs:restriction base="xs:string">
         </xs:restriction>
