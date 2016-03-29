@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-16"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="Master" type="MasterType" />
 
@@ -30,7 +30,7 @@
     <xs:complexType name="CourseBookingType">
         <xs:sequence>
             <xs:element name="Day" type="xs:string" />
-            <xs:element name="Timeslot" type="xs:dateTime" />
+            <xs:element name="Timeslot" type="xs:string" />
             <xs:element name="Instructor" type="xs:string" />
             <xs:element name="Activity" type="xs:string" />
             <xs:element name="Room" type="xs:string" />
@@ -47,8 +47,8 @@
     <!-- TimeBookings contains a timeslot and it's bookings -->
     <xs:complexType name="TimeBookingsType">
         <xs:sequence>
-            <xs:element name="Timeslot" type="xs:dateTime" />
-            <xs:element name="TimeBooking" type="TimeBookingType" />
+            <xs:element name="Timeslot" type="xs:string" />
+            <xs:element maxOccurs="unbounded" name="TimeBooking" type="TimeBookingType" />
         </xs:sequence>
     </xs:complexType>
 
@@ -81,7 +81,7 @@
     <!-- DayBooking contains a timeslot, course, instructor, activity and room -->
     <xs:complexType name="DayBookingType">
         <xs:sequence>
-            <xs:element name="Timeslot" type="xs:dateTime" />
+            <xs:element name="Timeslot" type="xs:string" />
             <xs:element name="Course" type="xs:string" />
             <xs:element name="Instructor" type="xs:string" />
             <xs:element name="Activity" type="xs:string" />
