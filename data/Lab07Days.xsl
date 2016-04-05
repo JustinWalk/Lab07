@@ -7,7 +7,7 @@
                 <h2>ACIT 4B Schedule</h2>
                 <table border="1">
                     <tr bgcolor="#9acd32">
-                        <th style="text-align:left">Timeslot</th>
+                        <th style="text-align:left"></th>
                         <th style="text-align:left">Monday</th>
                         <th style="text-align:left">Tuesday</th>
                         <th style="text-align:left">Wednesday</th>
